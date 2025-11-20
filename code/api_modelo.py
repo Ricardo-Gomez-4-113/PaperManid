@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 API_URL = "http://127.0.0.1:5000/v1/chat/completions"  # TGWUI o LM Studio
-MODEL_NAME = "model"
+MODEL_NAME = "Meta-Llama-3.1-8B-Instruct.Q4_K_M.gguf"
 
 app = FastAPI(title="Papermind Local API")
 
